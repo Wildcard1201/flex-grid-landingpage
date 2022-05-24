@@ -59,3 +59,26 @@ p {
     font-size: 30px;
     font-weight: 300;
 }
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: white;
+    padding: 9px;
+
+}
+
+.navbar a:hover {
+    color: #9867C5;
+    border-bottom: 3px solid #9867C5;
+}
