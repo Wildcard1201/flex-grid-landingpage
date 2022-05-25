@@ -96,6 +96,7 @@ p {
 }
 
 .showcase-form {
+    margin: auto;
     padding-left: 7px;
 }
 
@@ -129,4 +130,9 @@ p {
     font-size: 16px;
     cursor: pointer;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
 }
