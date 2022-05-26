@@ -166,3 +166,24 @@ p {
     margin: 0, 20px;
     text-align: justify;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats {
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.stats .fa {
+    color: purple;
+}
+
+.stat {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+
