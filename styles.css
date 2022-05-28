@@ -16,16 +16,16 @@ a {
 
 
 h1 {
+    margin: 10px 0;
     font-size: 30px;
     font-weight: 600;
-    margin: 10px 0;
     line-height: 1.2;
 }
 
 h2 {
+    margin: 10px 0;
     font-size: 25px;
     font-weight: 300;
-    margin: 10px 0;
     line-height: 1.2;
 }
 
@@ -42,8 +42,8 @@ li {
 }
 
 p {
-    font-size: 20px;
     margin: 10px 0;
+    font-size: 20px;
 }
 
 .container {
@@ -53,9 +53,9 @@ p {
 }
 
 .navbar {
-    background-color: purple;
     height: 70px;
     padding: 0 30px;
+    background-color: purple;
 }
 
 .navbar h1 {
@@ -78,14 +78,14 @@ p {
 
 .navbar a {
     margin: 0 10px;
-    color: white;
     padding: 9px;
+    color: white;
 
 }
 
 .navbar a:hover {
-    color: #9867C5;
     border-bottom: 3px solid #9867C5;
+    color: #9867C5;
 }
 
 .showcase {
