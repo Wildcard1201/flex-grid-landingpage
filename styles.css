@@ -120,23 +120,23 @@ p {
 }
 
 .showcase input[type='email'] {
-    padding: 10px 70px 10px 0;
-    font-size: 14px;
     border: none;
     border-radius: 6px;
+    padding: 10px 70px 10px 0;
     padding-left: 6px;
+    font-size: 14px;
 }
 
 .btn {
+    margin-left: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border: none;
     border-radius: 6px;
     padding: 12px 20px;
     background: #9867C5;
-    border: none;
-    margin-left: 10px;
     color: white;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .little-info {
@@ -151,20 +151,20 @@ p {
 }
 
 .title {
-    color: black;
-    font-size: 20px;
-    text-align: left;
     padding-left: 10px;
     padding-top: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: black;
 }
 
 .text {
-    color: black;
-    font-size: 19px;
     width: 100%;
-    padding: 10px;
     margin: 0, 20px;
+    padding: 10px;
+    font-size: 19px;
     text-align: justify;
+    color: black;
 }
 
 .flex {
@@ -183,7 +183,7 @@ p {
 
 .stat {
     margin: 0 30px;
-    text-align: center;
     width: 800px;
+    text-align: center;
 }
 
