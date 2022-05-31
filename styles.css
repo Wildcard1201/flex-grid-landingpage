@@ -187,3 +187,32 @@ p {
     text-align: center;
 }
 
+.testimonial {
+    color: black;
+    padding: 40px;
+}
+
+.testimonial img {
+    height: 100%;
+    clip-path: circle();
+
+    border: 1px solid red;
+}
+
+.testimonial h3 {
+    text-align: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                  7px 7px 20px rgba(0, 0, 0, 0.2);
+}
