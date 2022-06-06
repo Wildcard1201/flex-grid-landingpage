@@ -195,8 +195,6 @@ p {
 .testimonial img {
     height: 100%;
     clip-path: circle();
-
-    border: 1px solid red;
 }
 
 .testimonial h3 {
