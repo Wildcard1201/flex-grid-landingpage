@@ -230,15 +230,43 @@ p {
 
 footer {
         background-color: #800080;
-        padding: 20px 10px;
+        padding: 10px 10px;
 }
 
 footer a {
     color: #fff;
     margin: 0 10px;
+
+
+    /* border: 1px solid lightskyblue; */
 }
 
 footer a:hover {
     color: #9867C5;
     border-bottom: 2px solid #9867C5;
+}
+
+.links {
+    /* border: 1px solid greenyellow; */
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    /* border: 1px solid yellow; */
+}
+
+.links-list {
+    justify-content: center;
+}
+
+.links-list a {
+    margin: 0 25px;
+    font-size: 1.2em;
+}
+
+.profiles {
+    justify-content: flex-end;
 }
