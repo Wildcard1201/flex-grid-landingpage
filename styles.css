@@ -218,7 +218,9 @@ p {
 .circle {
     position: relative;
     top: -30px;
-    left: 120px;
+    /* left: 120px; */
+    left: calc(50% - 45px);
+    box-sizing: border-box;
     border: 3px solid purple;
     border-radius: 50%;
     width: 90px;
