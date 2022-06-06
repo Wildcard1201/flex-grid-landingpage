@@ -221,9 +221,24 @@ p {
     /* left: 120px; */
     left: calc(50% - 45px);
     box-sizing: border-box;
-    border: 3px solid purple;
+    border: 3px solid #800080;
     border-radius: 50%;
     width: 90px;
     height: 90px;
     background-color: transparent;
+}
+
+footer {
+        background-color: #800080;
+        padding: 20px 10px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #9867C5;
+    border-bottom: 2px solid #9867C5;
 }
