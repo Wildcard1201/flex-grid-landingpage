@@ -270,3 +270,48 @@ footer a:hover {
 .profiles {
     justify-content: flex-end;
 }
+
+/* Media Queries */
+
+/* Tablets and under */
+
+@media(max-width: 768px) {
+    .grid,
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .showcase {
+        height: auto;
+        text-align: center;
+    }
+
+    .image {
+        width: 600px;
+        margin-left: 80px;
+    }
+
+    .stats .flex {
+        flex-direction: column;
+    }
+
+    .stats {
+        text-align: center;
+    }
+
+    .stat {
+        width: 100%;
+        padding-right: 80px;
+    }
+
+    .circle {
+        background-color: transparent;
+        border: 3px solid #800080;
+        height: 90px;
+        position: relative;
+        top: -30px;
+        left: 270px;
+        border-radius: 50%;
+        width: 90px;
+    }
+}
