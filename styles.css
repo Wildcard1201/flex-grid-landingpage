@@ -339,4 +339,8 @@ footer a:hover {
     .navbar {
         height: 100px;
     }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
 }
