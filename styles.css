@@ -348,4 +348,10 @@ footer a:hover {
         color: white;
         border-bottom: 2px solid black;
     }
+
+    .navbar ul {
+        background: #9867C5;
+        border-radius: 5px;
+        padding: 10px 0;
+    }
 }
