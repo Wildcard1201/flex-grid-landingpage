@@ -354,4 +354,33 @@ footer a:hover {
         border-radius: 5px;
         padding: 10px 0;
     }
+
+    .showcase {
+        height: auto;
+        text-align: center;
+    }
+
+    .little-info {
+        font-size: 13px;
+    }
+
+    .image {
+        width: 350px;
+        margin-left: 70px;
+    }
+
+    .stat {
+        margin-bottom: 40px;
+    }
+
+    .circle {
+        background-color: transparent;
+        border: 3px solid #800080;
+        height: 90px;
+        position: relative;
+        top: -30px;
+        left: 150px;
+        border-radius: 50%;
+        width: 90px;
+    }
 }
